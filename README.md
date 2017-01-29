@@ -6,13 +6,6 @@ A novel feature selection technique based on a metaheuristic search algortihm is
 
 ## Introduction
 
-The FCM algorithm is very sensitive to noise and is easily struck at local optima. In order to overcome
-this limitation, spatial context of connection is taken into account considering its neighboring
-connections. A Penalty Reward based FCM algorithm is implemented here which can handle small
-as well as large amount of noise by adjusting a penalty and reward coefficient. The algorithm takes
-into account both the feature information and spatial information. The objective function is
-modified to incorporate the penalty and reward term by which it can overcome the local optima. The new objective function of the PRFCM algorithm is defined as follows:
-
 ![alt tag](https://github.com/shakti365/IDS-CSS-FS/blob/master/resources/figures/fig3.png)
 
 ### Dataset
@@ -28,7 +21,7 @@ The following results show the performance MCSS algortihm.
 
 This figure shows variying classification accuracy for different number of features selected during an instance in search thus a need for feature selection.
 
-![alt tag](https://github.com/shakti365/IDS-CSS-FS/blob/master/resources/figures/fig1.jpg) 
+![alt tag](https://github.com/shakti365/IDS-CSS-FS/blob/master/resources/figures/fig1.png) 
 
 This figure shows fast convergence of the MCSS algorithm
 
@@ -36,7 +29,7 @@ This figure shows fast convergence of the MCSS algorithm
 
 This figure shows postions of different agent during instances of search and its convergence towards the end. The few particles which do not converge are present as an improvement to give more exploration to the search.
 
-![alt tag](https://github.com/shakti365/IDS-CSS-FS/blob/master/resources/figures/barchart.png)
+![alt tag](https://github.com/shakti365/IDS-CSS-FS/blob/master/resources/figures/fig4.png)
 
 ## Authors
 

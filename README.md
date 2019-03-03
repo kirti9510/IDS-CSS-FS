@@ -8,6 +8,13 @@ A novel feature selection technique based on a metaheuristic search algortihm is
 
 ![alt tag](https://github.com/shakti365/IDS-CSS-FS/blob/master/resources/figures/fig3.png)
 
+### Usage
+
+- Clone this repository
+- Install the dependencies: `pip install -r requirements.txt` (use virtual environment)
+- Run the `CSS-FS.ipynb` Jupyter notebook end-to-end for CSS Feature Selection
+- Copy paste the selected features to input defined in `classifiers.ipynb` Jupyter notebook to evaluate using different classifiers
+
 ### Dataset
 
 The experiments are performed on NSL-KDD and 10% KDD Cup'99 Dataset. These dataset were pre-processed and normalized before use. It can be obtained from the following source. 
